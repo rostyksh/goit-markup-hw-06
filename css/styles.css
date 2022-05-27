@@ -257,9 +257,8 @@ pointer-events: none;
 
 .modal-cloced {
   position: absolute;
-  display: inline-block;
-  border: 0px;
-  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
   cursor: pointer;
   border-radius: 50%;
   width: 30px;
@@ -267,21 +266,9 @@ pointer-events: none;
   top: 8px; 
   right: 8px;
   background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1)
 }
 .modal-clase-icon {
-  position:absolute;
-  top: 50%;
-  right: 50%;
-  transform: translateY(-50%, -50%);
-  
-  right: 0px;
-  top: 0px;
-  
-  background-color: #ffffff;
-  color: #000000;
-  border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  /* box-sizing: border-box; */
   transition: fill 250ms var(--timing-function);
 }
 .modal-title{
